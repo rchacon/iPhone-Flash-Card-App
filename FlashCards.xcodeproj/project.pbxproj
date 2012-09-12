@@ -7,6 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		32A642F11497200800BDB61A /* AboutPageController.m in Sources */ = {isa = PBXBuildFile; fileRef = 32A642F01497200800BDB61A /* AboutPageController.m */; };
+		32A642F514972E7600BDB61A /* istudy.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 32A642F414972E7600BDB61A /* istudy.sqlite */; };
+		32A642F71497320B00BDB61A /* about.html in Resources */ = {isa = PBXBuildFile; fileRef = 32A642F61497320B00BDB61A /* about.html */; };
+		32A642FB149744A700BDB61A /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 32A642FA149744A700BDB61A /* Default.png */; };
+		32ADDC3114898C20000C9E60 /* SubjectListController.m in Sources */ = {isa = PBXBuildFile; fileRef = 32ADDC3014898C20000C9E60 /* SubjectListController.m */; };
+		32ADDC3414898DE7000C9E60 /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 32ADDC3314898DE7000C9E60 /* libsqlite3.0.dylib */; };
+		32ADDC3814898EBB000C9E60 /* DatabaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 32ADDC3714898EBB000C9E60 /* DatabaseModel.m */; };
+		32ADDC3D14898FF7000C9E60 /* SubjectsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 32ADDC3C14898FF7000C9E60 /* SubjectsModel.m */; };
+		32ADDC411489AF9B000C9E60 /* FlashCardListController.m in Sources */ = {isa = PBXBuildFile; fileRef = 32ADDC401489AF9B000C9E60 /* FlashCardListController.m */; };
+		32ADDC441489B75D000C9E60 /* FlashCardModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 32ADDC431489B75D000C9E60 /* FlashCardModel.m */; };
+		32ADDC52148A9999000C9E60 /* AddFlashCardController.m in Sources */ = {isa = PBXBuildFile; fileRef = 32ADDC51148A9999000C9E60 /* AddFlashCardController.m */; };
+		32ADDC55148A9F6B000C9E60 /* AddSubjectController.m in Sources */ = {isa = PBXBuildFile; fileRef = 32ADDC54148A9F6B000C9E60 /* AddSubjectController.m */; };
+		32ADDC80148C5C94000C9E60 /* FlashCardFrontSideController.m in Sources */ = {isa = PBXBuildFile; fileRef = 32ADDC7F148C5C93000C9E60 /* FlashCardFrontSideController.m */; };
+		32ADDC85148C65B1000C9E60 /* FlashCardBackSideController.m in Sources */ = {isa = PBXBuildFile; fileRef = 32ADDC84148C65B1000C9E60 /* FlashCardBackSideController.m */; };
+		32BB1C1C148C7D1F00D1BC69 /* IndexCard.png in Resources */ = {isa = PBXBuildFile; fileRef = 32BB1C1B148C7D1F00D1BC69 /* IndexCard.png */; };
+		32DA9F9F1498336B00C1E868 /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 32DA9F9E1498336B00C1E868 /* WebViewController.m */; };
+		32EA69F9149970CC005B3758 /* HomePageController.m in Sources */ = {isa = PBXBuildFile; fileRef = 32EA69F8149970CC005B3758 /* HomePageController.m */; };
+		32EA69FC14997595005B3758 /* icon0.png in Resources */ = {isa = PBXBuildFile; fileRef = 32EA69FA14997595005B3758 /* icon0.png */; };
+		32EA69FD14997595005B3758 /* icon1.png in Resources */ = {isa = PBXBuildFile; fileRef = 32EA69FB14997595005B3758 /* icon1.png */; };
 		48EAEEEC1487E2A500600BB8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48EAEEEB1487E2A500600BB8 /* UIKit.framework */; };
 		48EAEEEE1487E2A500600BB8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48EAEEED1487E2A500600BB8 /* Foundation.framework */; };
 		48EAEEF01487E2A500600BB8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48EAEEEF1487E2A500600BB8 /* CoreGraphics.framework */; };
@@ -14,7 +33,6 @@
 		48EAEEF81487E2A500600BB8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 48EAEEF71487E2A500600BB8 /* main.m */; };
 		48EAEEFC1487E2A500600BB8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 48EAEEFB1487E2A500600BB8 /* AppDelegate.m */; };
 		48EAEEFF1487E2A500600BB8 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48EAEEFD1487E2A500600BB8 /* MainStoryboard.storyboard */; };
-		48EAEF021487E2A500600BB8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 48EAEF011487E2A500600BB8 /* ViewController.m */; };
 		48EAEF0A1487E2A500600BB8 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48EAEF091487E2A500600BB8 /* SenTestingKit.framework */; };
 		48EAEF0B1487E2A500600BB8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48EAEEEB1487E2A500600BB8 /* UIKit.framework */; };
 		48EAEF0C1487E2A500600BB8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48EAEEED1487E2A500600BB8 /* Foundation.framework */; };
@@ -33,24 +51,53 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		32A642EF1497200800BDB61A /* AboutPageController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutPageController.h; sourceTree = "<group>"; };
+		32A642F01497200800BDB61A /* AboutPageController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutPageController.m; sourceTree = "<group>"; };
+		32A642F414972E7600BDB61A /* istudy.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = istudy.sqlite; sourceTree = "<group>"; };
+		32A642F61497320B00BDB61A /* about.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = about.html; sourceTree = "<group>"; };
+		32A642FA149744A700BDB61A /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		32ADDC2F14898C20000C9E60 /* SubjectListController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SubjectListController.h; sourceTree = "<group>"; };
+		32ADDC3014898C20000C9E60 /* SubjectListController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SubjectListController.m; sourceTree = "<group>"; };
+		32ADDC3314898DE7000C9E60 /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
+		32ADDC3614898EBB000C9E60 /* DatabaseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DatabaseModel.h; sourceTree = "<group>"; };
+		32ADDC3714898EBB000C9E60 /* DatabaseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DatabaseModel.m; sourceTree = "<group>"; };
+		32ADDC3B14898FF7000C9E60 /* SubjectsModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SubjectsModel.h; sourceTree = "<group>"; };
+		32ADDC3C14898FF7000C9E60 /* SubjectsModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SubjectsModel.m; sourceTree = "<group>"; };
+		32ADDC3F1489AF9B000C9E60 /* FlashCardListController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlashCardListController.h; sourceTree = "<group>"; };
+		32ADDC401489AF9B000C9E60 /* FlashCardListController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlashCardListController.m; sourceTree = "<group>"; };
+		32ADDC421489B75D000C9E60 /* FlashCardModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlashCardModel.h; sourceTree = "<group>"; };
+		32ADDC431489B75D000C9E60 /* FlashCardModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlashCardModel.m; sourceTree = "<group>"; };
+		32ADDC50148A9999000C9E60 /* AddFlashCardController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddFlashCardController.h; sourceTree = "<group>"; };
+		32ADDC51148A9999000C9E60 /* AddFlashCardController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddFlashCardController.m; sourceTree = "<group>"; };
+		32ADDC53148A9F6B000C9E60 /* AddSubjectController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddSubjectController.h; sourceTree = "<group>"; };
+		32ADDC54148A9F6B000C9E60 /* AddSubjectController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddSubjectController.m; sourceTree = "<group>"; };
+		32ADDC7E148C5C93000C9E60 /* FlashCardFrontSideController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlashCardFrontSideController.h; sourceTree = "<group>"; };
+		32ADDC7F148C5C93000C9E60 /* FlashCardFrontSideController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlashCardFrontSideController.m; sourceTree = "<group>"; };
+		32ADDC83148C65B0000C9E60 /* FlashCardBackSideController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlashCardBackSideController.h; sourceTree = "<group>"; };
+		32ADDC84148C65B1000C9E60 /* FlashCardBackSideController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlashCardBackSideController.m; sourceTree = "<group>"; };
+		32BB1C1B148C7D1F00D1BC69 /* IndexCard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IndexCard.png; sourceTree = "<group>"; };
+		32DA9F9D1498336B00C1E868 /* WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
+		32DA9F9E1498336B00C1E868 /* WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
+		32EA69F7149970CC005B3758 /* HomePageController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomePageController.h; sourceTree = "<group>"; };
+		32EA69F8149970CC005B3758 /* HomePageController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomePageController.m; sourceTree = "<group>"; };
+		32EA69FA14997595005B3758 /* icon0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon0.png; sourceTree = "<group>"; };
+		32EA69FB14997595005B3758 /* icon1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon1.png; sourceTree = "<group>"; };
 		48EAEEE71487E2A500600BB8 /* FlashCards.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlashCards.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		48EAEEEB1487E2A500600BB8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		48EAEEED1487E2A500600BB8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		48EAEEEF1487E2A500600BB8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		48EAEEF31487E2A500600BB8 /* FlashCards-Info.plist */ = {isa = PBXFileReference; path = "FlashCards-Info.plist"; sourceTree = "<group>"; };
+		48EAEEF31487E2A500600BB8 /* FlashCards-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FlashCards-Info.plist"; sourceTree = "<group>"; };
 		48EAEEF51487E2A500600BB8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		48EAEEF71487E2A500600BB8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		48EAEEF91487E2A500600BB8 /* FlashCards-Prefix.pch */ = {isa = PBXFileReference; path = "FlashCards-Prefix.pch"; sourceTree = "<group>"; };
-		48EAEEFA1487E2A500600BB8 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		48EAEEF91487E2A500600BB8 /* FlashCards-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FlashCards-Prefix.pch"; sourceTree = "<group>"; };
+		48EAEEFA1487E2A500600BB8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		48EAEEFB1487E2A500600BB8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		48EAEEFE1487E2A500600BB8 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		48EAEF001487E2A500600BB8 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
-		48EAEF011487E2A500600BB8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		48EAEF081487E2A500600BB8 /* FlashCardsTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlashCardsTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		48EAEF091487E2A500600BB8 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		48EAEF111487E2A500600BB8 /* FlashCardsTests-Info.plist */ = {isa = PBXFileReference; path = "FlashCardsTests-Info.plist"; sourceTree = "<group>"; };
+		48EAEF111487E2A500600BB8 /* FlashCardsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FlashCardsTests-Info.plist"; sourceTree = "<group>"; };
 		48EAEF131487E2A500600BB8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		48EAEF151487E2A500600BB8 /* FlashCardsTests.h */ = {isa = PBXFileReference; path = FlashCardsTests.h; sourceTree = "<group>"; };
+		48EAEF151487E2A500600BB8 /* FlashCardsTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FlashCardsTests.h; sourceTree = "<group>"; };
 		48EAEF161487E2A500600BB8 /* FlashCardsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlashCardsTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -59,6 +106,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				32ADDC3414898DE7000C9E60 /* libsqlite3.0.dylib in Frameworks */,
 				48EAEEEC1487E2A500600BB8 /* UIKit.framework in Frameworks */,
 				48EAEEEE1487E2A500600BB8 /* Foundation.framework in Frameworks */,
 				48EAEEF01487E2A500600BB8 /* CoreGraphics.framework in Frameworks */,
@@ -78,6 +126,60 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		32ADDC3514898E28000C9E60 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				32ADDC3614898EBB000C9E60 /* DatabaseModel.h */,
+				32ADDC3714898EBB000C9E60 /* DatabaseModel.m */,
+				32ADDC3B14898FF7000C9E60 /* SubjectsModel.h */,
+				32ADDC3C14898FF7000C9E60 /* SubjectsModel.m */,
+				32ADDC421489B75D000C9E60 /* FlashCardModel.h */,
+				32ADDC431489B75D000C9E60 /* FlashCardModel.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		32ADDC3E148998FA000C9E60 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				32ADDC82148C5CBA000C9E60 /* Subjects */,
+				32ADDC81148C5C9B000C9E60 /* Flash Cards */,
+				32EA69F7149970CC005B3758 /* HomePageController.h */,
+				32EA69F8149970CC005B3758 /* HomePageController.m */,
+				32A642EF1497200800BDB61A /* AboutPageController.h */,
+				32A642F01497200800BDB61A /* AboutPageController.m */,
+				32DA9F9D1498336B00C1E868 /* WebViewController.h */,
+				32DA9F9E1498336B00C1E868 /* WebViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		32ADDC81148C5C9B000C9E60 /* Flash Cards */ = {
+			isa = PBXGroup;
+			children = (
+				32ADDC3F1489AF9B000C9E60 /* FlashCardListController.h */,
+				32ADDC401489AF9B000C9E60 /* FlashCardListController.m */,
+				32ADDC7E148C5C93000C9E60 /* FlashCardFrontSideController.h */,
+				32ADDC7F148C5C93000C9E60 /* FlashCardFrontSideController.m */,
+				32ADDC83148C65B0000C9E60 /* FlashCardBackSideController.h */,
+				32ADDC84148C65B1000C9E60 /* FlashCardBackSideController.m */,
+				32ADDC50148A9999000C9E60 /* AddFlashCardController.h */,
+				32ADDC51148A9999000C9E60 /* AddFlashCardController.m */,
+			);
+			name = "Flash Cards";
+			sourceTree = "<group>";
+		};
+		32ADDC82148C5CBA000C9E60 /* Subjects */ = {
+			isa = PBXGroup;
+			children = (
+				32ADDC2F14898C20000C9E60 /* SubjectListController.h */,
+				32ADDC3014898C20000C9E60 /* SubjectListController.m */,
+				32ADDC53148A9F6B000C9E60 /* AddSubjectController.h */,
+				32ADDC54148A9F6B000C9E60 /* AddSubjectController.m */,
+			);
+			name = Subjects;
+			sourceTree = "<group>";
+		};
 		48EAEEDC1487E2A400600BB8 = {
 			isa = PBXGroup;
 			children = (
@@ -100,6 +202,7 @@
 		48EAEEEA1487E2A500600BB8 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				32ADDC3314898DE7000C9E60 /* libsqlite3.0.dylib */,
 				48EAEEEB1487E2A500600BB8 /* UIKit.framework */,
 				48EAEEED1487E2A500600BB8 /* Foundation.framework */,
 				48EAEEEF1487E2A500600BB8 /* CoreGraphics.framework */,
@@ -111,11 +214,11 @@
 		48EAEEF11487E2A500600BB8 /* FlashCards */ = {
 			isa = PBXGroup;
 			children = (
+				32ADDC3514898E28000C9E60 /* Models */,
+				32ADDC3E148998FA000C9E60 /* Controllers */,
 				48EAEEFA1487E2A500600BB8 /* AppDelegate.h */,
 				48EAEEFB1487E2A500600BB8 /* AppDelegate.m */,
 				48EAEEFD1487E2A500600BB8 /* MainStoryboard.storyboard */,
-				48EAEF001487E2A500600BB8 /* ViewController.h */,
-				48EAEF011487E2A500600BB8 /* ViewController.m */,
 				48EAEEF21487E2A500600BB8 /* Supporting Files */,
 			);
 			path = FlashCards;
@@ -124,6 +227,12 @@
 		48EAEEF21487E2A500600BB8 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				32EA69FA14997595005B3758 /* icon0.png */,
+				32EA69FB14997595005B3758 /* icon1.png */,
+				32A642FA149744A700BDB61A /* Default.png */,
+				32A642F61497320B00BDB61A /* about.html */,
+				32A642F414972E7600BDB61A /* istudy.sqlite */,
+				32BB1C1B148C7D1F00D1BC69 /* IndexCard.png */,
 				48EAEEF31487E2A500600BB8 /* FlashCards-Info.plist */,
 				48EAEEF41487E2A500600BB8 /* InfoPlist.strings */,
 				48EAEEF71487E2A500600BB8 /* main.m */,
@@ -224,6 +333,12 @@
 			files = (
 				48EAEEF61487E2A500600BB8 /* InfoPlist.strings in Resources */,
 				48EAEEFF1487E2A500600BB8 /* MainStoryboard.storyboard in Resources */,
+				32BB1C1C148C7D1F00D1BC69 /* IndexCard.png in Resources */,
+				32A642F514972E7600BDB61A /* istudy.sqlite in Resources */,
+				32A642F71497320B00BDB61A /* about.html in Resources */,
+				32A642FB149744A700BDB61A /* Default.png in Resources */,
+				32EA69FC14997595005B3758 /* icon0.png in Resources */,
+				32EA69FD14997595005B3758 /* icon1.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,7 +375,18 @@
 			files = (
 				48EAEEF81487E2A500600BB8 /* main.m in Sources */,
 				48EAEEFC1487E2A500600BB8 /* AppDelegate.m in Sources */,
-				48EAEF021487E2A500600BB8 /* ViewController.m in Sources */,
+				32ADDC3114898C20000C9E60 /* SubjectListController.m in Sources */,
+				32ADDC3814898EBB000C9E60 /* DatabaseModel.m in Sources */,
+				32ADDC3D14898FF7000C9E60 /* SubjectsModel.m in Sources */,
+				32ADDC411489AF9B000C9E60 /* FlashCardListController.m in Sources */,
+				32ADDC441489B75D000C9E60 /* FlashCardModel.m in Sources */,
+				32ADDC52148A9999000C9E60 /* AddFlashCardController.m in Sources */,
+				32ADDC55148A9F6B000C9E60 /* AddSubjectController.m in Sources */,
+				32ADDC80148C5C94000C9E60 /* FlashCardFrontSideController.m in Sources */,
+				32ADDC85148C65B1000C9E60 /* FlashCardBackSideController.m in Sources */,
+				32A642F11497200800BDB61A /* AboutPageController.m in Sources */,
+				32DA9F9F1498336B00C1E868 /* WebViewController.m in Sources */,
+				32EA69F9149970CC005B3758 /* HomePageController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -430,6 +556,7 @@
 				48EAEF1C1487E2A500600BB8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		48EAEF1D1487E2A500600BB8 /* Build configuration list for PBXNativeTarget "FlashCardsTests" */ = {
 			isa = XCConfigurationList;
@@ -438,6 +565,7 @@
 				48EAEF1F1487E2A500600BB8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
