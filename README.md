@@ -1,6 +1,6 @@
 iStudy
 =====================
-An iPhone Flash Card App for CIS 600 at Syracuse University Fall 2011.
+An iPhone Flash Card App completed for CIS 600 at Syracuse University Fall 2011.
 
 ![simulator_screenshot_home_page.png](https://github.com/raulchacon/iPhone-Flash-Card-App/raw/master/simulator_screenshot_home_page.png "iStudy")
 
